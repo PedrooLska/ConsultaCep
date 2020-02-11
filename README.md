@@ -7,7 +7,7 @@ Projeto desenvolvido para fazer consulta de endereço pelo CEP.
 
 :white_check_mark: - CSS3
 
-:white_check_mark: - JavaScript (Class, Constructor, IF/ELSE, Fetch, dus)
+:white_check_mark: - JavaScript (Class, Constructor, IF/ELSE, Fetch, Destructuring)
  
 
 
