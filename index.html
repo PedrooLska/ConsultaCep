@@ -1,30 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Consulta Cep</title>
-
-    <!-- Style Sheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
-
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
+
 <body>
-    <main class="wrapper">
-        <h1>Consulta CEP</h1>
-        <input type="text" class="cep">
-        <button onclick="newBuscaCep.getCep()">Consultar Cep</button>
-
-        <h3 class="result"></h3>
-        <h3 class="erro"></h3>
-    </main>
-
-    <footer><a>Desenvolvido por Pedro Lucas</a> <i class="fas fa-heart"></i></footer>
-    
-
+    <section class="content">
+        <h1 class="content__title">Consulta CEP</h1>
+        <input type="text" class="content__input" id="cep">
+        <button class="content__button" onclick="getCep()">Consultar Cep</button>
+        <h3 class="content__result" id="result"></h3>
+        <h3 class="content__erro" id="erro"></h3>
+    </section>
+    <footer class="footer"><a>Desenvolvido por Pedro Lucas</a> <i class="footer__icon-red fas fa-heart"></i></footer>
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
